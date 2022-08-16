@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  min-width: 400px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+
+/* Nav starts */
+header {
+  background-color: #136c72;
+  padding: 0.5em 0;
+}
+.nav_container {
+  width: 90%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.logo {
+  max-width: 70px;
+}
+.nav__list {
+  list-style: none;
+}
+.nav__list {
+  padding-left: 0;
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button_li {
+  margin-top: 20px;
+}
+
+.nav__link--button {
+  background: #fff;
+  color: #136c72;
+  padding: 0.25em 1em;
+  border-radius: 10em;
+}
+
+.nav__link:hover {
+  opacity: 0.75;
+}
+/* Nav ends */
+
+/* Hero starts */
+.hero {
+  background-color: #23424a;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3125rem;
+  color: #fff;
+  text-align: center;
+}
+.hero_container {
+  width: 90%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 5% 0%;
+}
+/* Hero ends */
+.hero_content h1 {
+  font-size: 3rem;
+}
+.hero p {
+  margin-bottom: 3em;
+}
+.btn {
+  background-color: #38cfd9;
+  border-radius: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  padding: 0.75em 2em;
+  display: inline-block;
+}
+.btn:focus,
+.btn:hover {
+  opacity: 0.75;
+}
+.img_container {
+  max-width: 60%;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+}
+
+.content {
+  width: 90%;
+  max-width: 1500px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.325rem;
+}
+.left_container {
+  padding: 1em;
+  text-align: center;
+}
+.right_container {
+  text-align: center;
+  background-color: #136c72;
+  color: white;
+  padding: 1em;
+}
+
+@media (min-width: 800px) {
+  .nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .nav__link {
+    margin-left: 2rem;
+  }
+  .button_li {
+    margin-top: 0px;
+  }
+  .hero {
+    text-align: left;
+  }
+  .hero_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .content_container {
+    width: 50%;
+  }
+  .img_container {
+    width: 35%;
+  }
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+  }
+  .left_container {
+    width: 62%;
+  }
+  .right_container {
+    width: 32%;
+  }
+}
